@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(type='text/javascript', src='https://code.jquery.com/jquery-1.11.3.min.js')
+    script(type='text/javascript', src='https://skyway.io/dist/0.3/peer.min.js')
+    script(type='text/javascript', src='https://skyway.io/dist/multiparty.min.js')
+    script(type='text/javascript', src='/javascripts/skyway.js')
+    script(type='text/javascript', src='/javascripts/touchTest.js')
+    style().
+        video { width:200px; }
+  body
+    block content
